@@ -14,26 +14,31 @@
   align-items: center;
   padding-top: 100px;
 }
+
 .h1 {
   color: white;
   font-size: 50px;
 }
+
 .h3 {
   color: red;
   font-size: 30px;
   margin-top: -10px;
 }
+
 #projects {
   height: 700px;
   background-color: #45567d;
   margin-top: -42px;
   color: #f0f0f0;
 }
+
 .project-tile {
   text-align: center;
   padding-top: 3%;
   font-size: 50px;
 }
+
 .continer-items {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -41,15 +46,20 @@
   background-color: #45567d;
   padding: 10px;
 }
+
+img {
+  width: 100%;
+}
+
 .item {
   background: url("https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg");
 }
+
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
   margin: auto;
   text-align: center;
-  font-family: arial;
 }
 
 .price {
@@ -81,19 +91,23 @@
   position: fixed;
   width: 100%;
 }
+
 .nave_link {
   display: flex;
   text-align: right;
   margin-right: 20px;
 }
+
 .link-text {
   color: rgba(255, 255, 255, 0);
 }
+
 .link {
   color: white;
   font-size: 30px;
   margin-right: 20px;
 }
+
 #profile-link {
   color: #f0f0f0;
 }
@@ -104,6 +118,7 @@
     grid-template-columns: auto;
   }
 }
+
 .footer {
   bottom: 0;
   left: 0;
