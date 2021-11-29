@@ -1,0 +1,146 @@
+#welcome-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+}
+
+#text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.h1 {
+  color: white;
+  font-size: 50px;
+}
+
+.h3 {
+  color: red;
+  font-size: 30px;
+  margin-top: -10px;
+}
+
+#projects {
+  height: 700px;
+  background-color: #45567d;
+  margin-top: -42px;
+  color: #f0f0f0;
+}
+
+.project-tile {
+  text-align: center;
+  padding-top: 3%;
+  font-size: 50px;
+}
+
+.continer-items {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  background-color: #45567d;
+  padding: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+.item {
+  background: url("https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg");
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+#navbar {
+  display: flex;
+  justify-content: right;
+  height: 100px;
+  background-color: #be3144;
+  position: fixed;
+  width: 100%;
+}
+
+.nave_link {
+  display: flex;
+  text-align: right;
+  margin-right: 20px;
+}
+
+.link-text {
+  color: rgba(255, 255, 255, 0);
+}
+
+.link {
+  color: white;
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+#profile-link {
+  color: #f0f0f0;
+}
+
+@media only screen and (max-width: 600px) {
+  .continer-items {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+
+.footer {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #263238;
+  text-align: center;
+  color: #f4f4f4;
+  height: 200px;
+}
+
+.icons {
+  padding-top: 1rem;
+}
+
+.icons a {
+  text-decoration: none;
+  font-size: 2rem;
+  margin: 0.5rem;
+  color: #f4f4f4;
+}
+
+.company-name {
+  font-size: 1.6rem;
+  margin-top: 0.5rem;
+}
